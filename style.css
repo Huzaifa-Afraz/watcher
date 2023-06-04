@@ -1,0 +1,585 @@
+:root {
+    --primary-bg: #F9F9F9;
+    --primary-color: #1A6BA1;
+    --secondary-color: #2E2E2E;
+}
+
+.primary_btn {
+    background: var(--primary-color);
+    border-radius: 5.4px;
+    display: flex;
+    padding: 13.39px 33.8px 15.06px 32.39px;
+    align-items: flex-start;
+    color: #fff;
+    border: none;
+}
+
+nav {
+    background: #FFFFFF !important;
+    border-bottom: 1px solid #50505024 !important;
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.slide {
+    opacity: 0;
+}
+
+.animate__animated {
+    opacity: 1;
+}
+
+nav #logo {
+    width: 150px;
+}
+
+nav .nav-item a,nav a {
+    margin-right: 1.5rem;
+    text-transform: uppercase;
+}
+
+nav .nav-item button, nav .nav-item button a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    width: 155px;
+    height: 42px;
+    background: var(--primary-color);
+    border-radius: 5.4px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0;
+}
+
+nav .nav-item .active {
+    color: var(--primary-color) !important;
+}
+
+/*---------- hero section -------- */
+#heroSection {
+    height: 532px;
+    /* background-color: red; */
+    /* background: url(./img/Watcher\ banner\ image.png); */
+    background: url(./img/Banner-Image-1.jpg);
+    object-fit: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+
+}
+
+#heroSection .heroText {
+    min-height: 532px;
+    max-height: fit-content;
+    /* display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column; */
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+
+#heroSection .heroText h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+}
+
+#heroSection .heroText p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+}
+
+#heroSection .heroText button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 32.55px 10px 32.39px;
+    gap: 10px;
+    /* width: 194.94px; */
+    height: 52px;
+    border: 1px solid var(--primary-color);
+    /* background: #1A6BA1; */
+    border-radius: 5.4px;
+}
+
+#heroSection .heroText .btn1 {
+    background: var(--primary-color);
+    margin-right: 10px;
+    color: #fff;
+
+}
+
+#heroSection .heroText .btn2 {
+    color: var(--primary-color);
+    background: #fff;
+}
+
+#heroSection .rightVdoSection {
+    background-color: red;
+}
+
+/*  --------cardSection------ */
+
+#cardSection .card-body .cardLine {
+    position: absolute;
+    width: 98px;
+    height: 0px;
+    left: 161px;
+    top: 736px;
+
+    border: 3px solid var(--primary-color);
+}
+
+#cardSection .card-body .bold-heading {
+    font-size: 50px !important;
+    font-weight: 700 !important;
+}
+
+#cardSection .card {
+    width: 379px;
+    height: 356px;
+}
+
+#cardSection .card .card-img {
+    width: 50px;
+    height: 50px;
+}
+
+.cardSection .card {
+    cursor: pointer;
+}
+
+.cardSection .card:hover {
+    opacity: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.cardSection .card:first-child:hover {
+    /* color: #fff;
+    background-color: var(--primary-color); */
+    opacity: 100%;
+    /* transition:0.3s ease-in-out; */
+}
+
+/*----------------------------------how does wo work------------------ */
+#workSection {
+    background: #F9F9F9;
+    /* padding: 4rem 0; */
+    padding: 4rem 0 9rem 0;
+}
+
+#workSection h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+#workSection .btns {
+    margin-top: 30px;
+    /* width: 100%; */
+    margin: 30px auto 10px;
+    padding-bottom: 1.5rem;
+}
+
+#workSection .btns button {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#workSection .btns .btn1 {
+    width: 180px;
+    height: 48px;
+    color: #000;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px 0px 0px 5px;
+}
+#workSection .btns .btn2 {
+    width: 180px;
+    height: 48px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: #000;
+}
+#workSection .btns .active {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.Number1{
+    opacity: 0;
+}
+.Number1 .animate__animated{
+    opacity: 1;
+}
+.Number2{
+    opacity: 0;
+}
+.Number2 .animate__animated{
+    opacity: 1;
+}
+.Number3{
+    opacity: 0;
+}
+.Number3 .animate__animated{
+    opacity: 1;
+}
+.Number4{
+    opacity: 0;
+}
+.Number4 .animate__animated{
+    opacity: 1;
+}
+.Number5{
+    opacity: 0;
+}
+.Number5 .animate__animated{
+    opacity: 1;
+}
+.Number6{
+    opacity: 0;
+}
+.Number6 .animate__animated{
+    opacity: 1;
+}
+.Number7{
+    opacity: 0;
+}
+.Number7 .animate__animated{
+    opacity: 1;
+}
+.arrow{
+    align-items: center;
+    display: flex;
+    margin: 0 15px;
+}
+#workSection .arrow-tail{
+    width: 200px;
+    max-width: 250px;
+border: 2px dashed #B1B1B1;
+}
+#workSection .arrow-head{
+    width: 0px;
+	border-top: 8px solid transparent;
+	border-left: 8px solid #B1B1B1;
+	border-bottom: 8px solid transparent;
+}
+#workSection .circles .text-circle{
+position: relative;
+}
+#workSection .circles p{
+top:90px;
+left:-8px;
+color: #333333;
+font-weight: 400;
+font-size: 20px;
+}
+#workSection .circles .first-child p{
+left:-27px;
+}
+#workSection .circles .circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1A6BA1;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.innovation-bg {
+    background-image: linear-gradient(rgba(26, 107, 161, 0.5), rgba(26, 107, 161, 0.5)), url("./img/growth-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 293px;
+    width: 100%;
+    /* margin-top: 72px; */
+
+}
+
+.primary_bg {
+    background-color: var(--primary-bg);
+    margin-top: 2rem;
+}
+
+.join-us h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.inner__innovation {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 14.3rem;
+}
+
+.inner__innovation h2 {
+    font-weight: bold;
+}
+
+.footer-bg {
+    background: var(--secondary-color);
+    width: 100%;
+
+}
+
+.cardSection .card {
+    max-width: 379px;
+}
+
+
+
+/* -------------------------------------------------ABOUT US PAGE------------------------------------- */
+.featurette{
+    margin-top: 7rem;
+}
+.featurette h2 {
+    font-size: 66px;
+    color: #4A4A4A;
+}
+
+.featurette .lead {
+    font-size: 20px;
+    color: #000000;
+}
+
+.watcher-img {
+    /* max-width: 300px;
+    max-height: 369px; */
+}
+
+/* ------------------------------------------------View Cameras page------------------------------- */
+.WorkExamples{
+    margin-top: 7rem;
+}
+.WorkExamples h1 {
+    font-size: 66px;
+}
+
+.WorkExamples .descPara {
+    color: var(--primary-color);
+    font-size: 35px;
+}
+
+.WorkExamples .card {
+    /* width: 322px; */
+    height: 148px;
+    background: #E6E6E6;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.viewCameras__card h2 {
+    font-size: 40px;
+}
+
+.viewCameras__card .card-img {
+    /* width: 504px;
+    height: 332px; */
+}
+
+.viewCameras__card .featurette h2 {
+    font-weight: 700;
+
+}
+
+
+/* --------------------contactus page------------ */
+.contactUs {
+    margin-top: 5rem;
+}
+
+.contactUs form button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    width: 175px;
+    height: 45px;
+    background: var(--primary-color);
+    border-radius: 5.4px;
+    border: none;
+    color: #fff;
+}
+
+.contactUsHeading {
+    margin: 0.1rem 0 4rem 0;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.contactUs .img {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 33px;
+}
+
+.contactUs .email-img {
+    margin-top: 2.4rem;
+}
+
+.contactUs input, .contactUs textarea {
+    padding: 17px 22.59px 17px 40px;
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+    width: 100%;
+    /* height: 56px; */
+    margin: 16px 0;
+}
+
+.contactUs textarea {
+    height: 120px;
+
+}
+
+.border-bottom {
+    border-bottom: 1px solid #D4D4D4;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact-Details {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.contact-Details p {
+    color: #888888;
+    font-size: 20px;
+}
+
+.contact-Details h2 {
+    color: #215374;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* ------------------------Enroll Service page------------------- */
+.Enroll-Services {
+    margin:7rem 0 3rem 0;
+}
+
+.Enroll-Services label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Enroll-Services input, select {
+    width: 50%;
+    background: #FFFFFF;
+    /* Enroll/Secondary/lightergrey */
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+}
+
+.Enroll-Services .Enroll-heading {
+    color: #4A4A4A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+
+}
+
+#wrapper {
+    display: inline-block;
+    /* padding:20px; */
+    height: auto;
+}
+
+#wrapper input {
+    display: inline-block;
+    padding: 2px;
+    height: auto;
+    margin-right: 10px;
+    width: 10px;
+}
+
+.Enroll-Services button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    width: 175px;
+    height: 45px;
+    background: var(--primary-color);
+    border-radius: 5.4px;
+    border: none;
+    color: #fff;
+}
+
+@media screen and (max-width:992px) {
+    #heroSection .heroText h1 {
+        font-size: 28px;
+    }
+
+    #heroSection .heroText p {
+        font-size: 16px;
+    }
+
+
+    .featurette h2 {
+        font-size: 28px;
+    }
+
+
+    .inner__innovation {
+        top: 7.3rem;
+    }
+
+    .Enroll-Services .Enroll-heading {
+        font-size: 48px;
+    }
+
+    /* .viewCameras__card .card-img {
+        width: 304px;
+        height: 332px;
+        object-fit: cover;
+    } */
+    .contact-Details {
+        margin-top: 5rem;
+    }
+
+    .contactUsHeading {
+        font-size: 48px;
+    }
+
+    .Enroll-Services input, select {
+        width: 100%;
+    }
+}
